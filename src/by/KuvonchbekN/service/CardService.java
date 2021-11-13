@@ -74,16 +74,7 @@ public class CardService implements BaseService<Card, Card, List<Card>>{
         }
     }
 
-//    public void updateCard(Card card){
-//        int ind = 0;
-//        for (Card card1: BaseService.cardList) {
-//            if(card1.getId().equals(card.getId()) && card1.isActive()){
-//                BaseService.cardList.set(ind, card);
-//                break;
-//            }
-//            ind++;
-//        }
-//    }
+
 
     //for testing
     public void allList(){
